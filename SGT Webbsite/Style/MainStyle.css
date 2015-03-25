@@ -1,0 +1,520 @@
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+}
+em {
+    font-style: normal;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+a {
+    color: #FFB700;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+body{
+	background-image: url('Images/background.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 100%;
+    font-family:'robotothin';
+    color: #fff;
+
+}
+
+
+/* Logos Style */
+.small-logo {
+    
+}
+
+
+/* Code for icons on homepage */
+
+[data-icon]:before {
+	font-family: 'Metrize-Icons';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+/*------------------- Header Style ------------------------*/
+
+header{
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background: #2960b7;
+	color: #afe1da;
+	color: #fff;
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+	margin: 0px;
+	border-bottom: solid 3px #012B58;
+}
+
+header > nav {
+	list-style: none;
+	padding: 0;
+	height: 0px;
+	width: 1000px;
+	margin: 0 auto;
+	min-height: 100%;
+}
+header > nav > ul {
+	float: right;
+}
+
+header > nav  > ul > li {
+	display:inline-block; 
+	*display:inline; 
+	*zoom:1; 
+	height: 5px; 
+	
+}
+
+header > nav > ul > li  > a{
+	padding:0 10px; 
+	line-height: 50px; 
+	display:block;
+	font-size: 1.6em; 
+	color:#f9f9f9; 
+	font-family: 'RobotoCondensed';
+	margin:0 0 0 0
+	
+}
+
+header > nav  > ul > li  > a:hover {
+	color:#FFB700;
+}
+
+header > nav > ul > li > a#Selected {
+	color:#FFB700;
+	background:#012B58;
+}
+
+/*-------------------- Header Logo Left ------------------ */
+
+header > nav > #SgtLogo {
+
+	position: realtive;
+	float: left;
+	font-size: 100px;
+	margin-top: 2%;
+	font-family: 'myfirstfont';
+}
+
+header > nav > #SgtLogo > a {
+	text-decoration: none;
+	color: #012B58 ;
+	padding-bottom: 0;
+}
+
+header > nav > #SgtLogo > a:visited {
+	color: #012b58;
+}
+
+header > nav > #SgtLogo > a:hover{
+	color: #FFB700;
+}
+
+/*---------------- HOMEPAGE TOP INFO STYLE------------------- */
+
+#topinfo{
+    width:100%;
+    height: 510px;
+    background-image: url(../Images/earthbackground.jpg);
+    background-size: 100% 100%;
+    margin: 0;
+    text-align:center;
+    
+    
+}
+
+
+#topinfo > p {
+    margin: 0 auto;
+    width: 775px;
+    padding-top: 6%;
+    text-decoration: none;
+    color: #FFB700;
+    font-size: 30px;
+    font-family: 'RobotoCondensed';
+}
+
+/*---------------------------- QUICKLINKS---------------------------- */
+#topinfo > #container {
+    width:1024px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 7%;
+    display: table;
+    table-layout: fixed
+}
+
+#topinfo > #container > a {
+    display: table-cell;
+    color: #fff;
+}
+
+#topinfo > #container > a:hover {
+    color: #FFB700;
+}
+
+#topinfo > #container > a > em {
+    font-size: 6em;
+    font-style: normal;
+}
+
+#topinfo > #container > a > h2 {
+    font-size: 1.1rem;
+    font-family:sans-serif;
+    font-weight: 100;
+}
+
+/*----------------------------Subpages Pagename----------------------------*/
+
+.pagename {
+    width: 100%;
+    min-height: 100px;
+    text-align: center;
+}
+
+.pagename > .thinline {
+    border-bottom: 1px rgba(251, 183, 0,0.5) solid;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-bottom: 0.5em;
+    width:70%;
+    margin: 0 auto;
+}
+
+.pagename> div > h2 {
+    padding-top: 3%;
+    color: #FFB700;
+}
+ /*--------- Subpages Information ---------*/
+
+.pageinfo {
+    width: 100%;
+    min-height: 125px;
+    color: #757575;
+    padding-top: 1em;
+    text-align: center;
+}
+
+.pageinfo > h3 {
+    font-size: 1.5em;
+}
+
+.pageinfo > p {
+    font-size: 1.3em;
+    padding: 0.2em;
+    color: #757575;
+    font-weight: bold;
+}
+
+.pageinfor > p > a {
+    color: #ffb700;
+}
+
+/*--------------------Container for subpages------------------*/
+
+.subContainer {
+    width: 100%;
+    min-height:100px;
+    background-color: #012b58;
+}
+
+/*------------------Contact via Facebook-----------------------*/
+
+.subContainer > #contactFacebook {
+    text-align: center;
+}
+.subContainer > #contactFacebook > a {
+    color: #fff ;
+    font-size: 2.5em;
+    font-style:normal;
+    padding: 0 0.2em;
+}
+.subContainer > #contactFacebook.thinline {
+    border-bottom: 1px rgba(255,255,255,0.4) solid;
+    padding-bottom: 1.5em;
+    padding-top: 1em;
+    margin-bottom: 0.5em;
+    width:70%;
+    margin: 0 auto;
+    
+}
+
+
+.subContainer > #contactFacebook > a:hover {
+    color: #FFB700;;
+    text-decoration: none;
+}
+
+.subContainer > #contactFacebook > p {
+    font-size: 1.5em;
+    color: #FFB700;
+}
+
+/*---------------------------- Contact via Form ---------------------------*/
+
+.subContainer > #contactForm {
+    padding: 1em 0;
+    width: 50%;
+    margin: 0 auto;
+        
+}
+
+.subContainer > #contactForm > p {
+    font-size: 2em;
+    text-align: center;
+}
+
+
+.subContainer > #contactForm > form > input{
+    width:100%;
+    border-radius: 0.5em;
+    background-color: #6d6c6c;
+    color: #fff;
+    padding: 0.5em;
+    border: none;
+    margin-bottom: 1em;
+}
+
+
+
+.subContainer > #contactForm > form > input:hover {
+    background-color: #777777;
+}
+
+.subContainer > #contactForm > form > input[type="text"]:focus {
+    outline: none;
+    background-color: #777777;
+}
+
+.subContainer > #contactForm > form > label {
+    margin-bottom: 100px;
+}
+
+.subContainer > #contactForm > form > textarea {
+    width:100%;
+    border-radius: 0.5em;
+    background-color: #6d6c6c;
+    color: #fff;
+    padding: 0.5em;
+    border: none;
+    margin-bottom: 1em;
+    
+}
+
+.subContainer > #contactForm > form > textarea:focus {
+    outline: none;
+    background-color: #777777;
+}
+/* -------------------Section Styles-------------------------- */
+
+
+Section {
+	width:100%;
+	min-height: 200px;
+	margin: 0 auto;
+	margin-top:1em;
+}
+
+/*--------------------- SPONOSRS SECTION --------------------*/
+section > #sponsoring {
+    width: 100%;
+    min-hieght: 100px; 
+    text-align: center;
+    font-style:normal;
+    font-size: 0.8em;
+    color: #999;
+}
+
+
+section > #sponsoring > .thinline {
+    border-bottom: 1px rgba(251, 183, 0,0.5) solid;
+    padding-bottom: 1.5em;
+    padding-top: 1em;
+    margin-bottom: 0.5em;
+    width:80%;
+    margin: 0 auto;
+}
+
+section > #sponsoring > .thinline > h2 {
+    
+}
+section > #sponsoring > #partners {
+    display: table;
+    margin:0 auto;
+    
+}
+
+section > #sponsoring > #partners > a {
+    display: table-cell;
+    font-size: 2em;
+    padding: 0.5em 1em;
+}
+
+section > #sponsoring > #partners > a > em {
+    font-size: 3em;
+}
+
+/*--------------------- SPONSORS SECTION ENDS ----------------*/
+
+Section > article, aside {
+	width: 48%, 48%;
+	
+}
+
+Section > article {
+	background-color: grey;
+	float:left;
+	width: 48%;
+	min-height: 200px;
+	margin:1%;
+}
+
+Section > aside {
+	float:left;
+	background-color: black;
+	min-height: 200px;
+	width: 48%;
+	margin:1%;
+	}
+	
+/* Footer Style */
+
+footer {
+    clear:both;
+    background-color:#2960b7;
+    
+}
+
+footer > .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+footer > .container > .callout {
+    border-bottom: 1px rgba(255,255,255,0.2) solid;
+    padding-bottom: 1.5em;
+    padding-top: 1em;
+}
+
+footer > .container > .callout > h2 {
+    text-align: center;
+    font-family:'robotothin';
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+footer > .container > .grid {
+    display: table;
+    width: 85%;
+    text-align: left;
+    margin: 0 auto;
+    margin-right: 1.5em;
+    
+    
+}
+
+footer > .container > .grid > .grid-item {
+    display: table-cell;
+    padding-bottom: 0;
+    letter-spacing: 2px;
+    
+}
+footer > .container > .grid > .grid-item > form {
+    display: block;
+    
+}
+footer > .container > .grid > .grid-item > form > input {
+    display: block;
+    margin-bottom: 1em;
+}
+footer h2 {
+    margin: 1em 0 0.5em 0;
+    font-size: 1.5rem;
+}
+
+footer > .container > .grid > .grid-item > nav {
+    display: block;
+}
+
+footer > .container > .grid > .grid-item > nav > a {
+    display: block;
+    color: #fff;
+    font-size: 1.1rem
+}
+footer > .container > .grid > .grid-item > nav > a:hover{
+    text-decoration: underline;
+}
+
+footer > .container > .grid > .grid-item > #social-icons {
+    display: table;
+    width: 35%;
+}
+
+footer > .container > .grid > .grid-item > #social-icons > a {
+    display: table-cell;
+    color: #fff;
+}
+
+footer > .container > .grid > .grid-item > #social-icons > a:hover {
+    color: #FFB700 ;
+}
+
+footer > .container > .grid > .grid-item > #social-icons > a > em {
+    font-size: 2.5em;
+    font-style:normal;
+    
+}
+
+footer > .container > p {
+    height: 80px;
+    margin-top: 1em;
+    text-align: center;
+    clear: both;
+    font-size: 1em;
+    
+}
+
+footer > .container > p > a {
+    color: #fff;
+    margin-top: 0.2em;
+    font-family: 'myfirstfont';
+    font-size: 5em;
+    
+}
+
+footer > .container > p > a:hover {
+    color: #FFB700;
+}
