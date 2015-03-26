@@ -44,7 +44,7 @@ body{
 }
 
 
-/* Code for icons on homepage */
+/*----------------- Code for icons on homepage ------------------ */
 
 [data-icon]:before {
 	font-family: 'Metrize-Icons';
@@ -141,6 +141,8 @@ header > nav > #SgtLogo > a:hover{
 	color: #FFB700;
 }
 
+
+
 /*---------------- HOMEPAGE TOP INFO STYLE------------------- */
 
 #topinfo{
@@ -164,6 +166,8 @@ header > nav > #SgtLogo > a:hover{
     font-size: 30px;
     font-family: 'RobotoCondensed';
 }
+
+
 
 /*---------------------------- QUICKLINKS---------------------------- */
 #topinfo > #container {
@@ -195,6 +199,10 @@ header > nav > #SgtLogo > a:hover{
     font-weight: 100;
 }
 
+
+
+
+
 /*----------------------------Subpages Pagename----------------------------*/
 
 .pagename {
@@ -216,7 +224,11 @@ header > nav > #SgtLogo > a:hover{
     padding-top: 3%;
     color: #FFB700;
 }
- /*--------- Subpages Information ---------*/
+
+
+
+
+ /*--------------------------- Subpages Information -------------------------*/
 
 .pageinfo {
     width: 100%;
@@ -241,6 +253,8 @@ header > nav > #SgtLogo > a:hover{
     color: #ffb700;
 }
 
+
+
 /*--------------------Container for subpages------------------*/
 
 .subContainer {
@@ -248,6 +262,9 @@ header > nav > #SgtLogo > a:hover{
     min-height:100px;
     background-color: #012b58;
 }
+
+
+
 
 /*------------------Contact via Facebook-----------------------*/
 
@@ -281,6 +298,8 @@ header > nav > #SgtLogo > a:hover{
     color: #FFB700;
 }
 
+
+
 /*---------------------------- Contact via Form ---------------------------*/
 
 .subContainer > #contactForm {
@@ -295,47 +314,66 @@ header > nav > #SgtLogo > a:hover{
     text-align: center;
 }
 
+.subContainer > #contactForm > form {
+    margin-top: 1em;
+}
 
-.subContainer > #contactForm > form > input{
-    width:100%;
-    border-radius: 0.5em;
-    background-color: #6d6c6c;
+.subContainer > #contactForm > form > label {
+    margin: 0.3em 0;
+    display: inline-block;
+}
+
+.subContainer > #contactForm > form > input[type="text"]{
     color: #fff;
-    padding: 0.5em;
-    border: none;
-    margin-bottom: 1em;
+    background-color: #6d6c6c;
+    border-radius: 0.2em;
+    width:100%;
+    padding: 10px;
+    border: solid 1px #6d6c6c;
+    transition: box-shadow 0.3s, border 0.3s;
+    margin-bottom: 2em;
 }
 
 
-
-.subContainer > #contactForm > form > input:hover {
+.subContainer > #contactForm > form > input[type="text"]:hover {
     background-color: #777777;
 }
 
 .subContainer > #contactForm > form > input[type="text"]:focus {
     outline: none;
     background-color: #777777;
+    border: solid 1px #707070;
+    box-shadow: 0 0 2px 1px #969696;
+
 }
 
-.subContainer > #contactForm > form > label {
-    margin-bottom: 100px;
-}
 
 .subContainer > #contactForm > form > textarea {
     width:100%;
-    border-radius: 0.5em;
+    border-radius: 0.2em;
     background-color: #6d6c6c;
-    color: #fff;
     padding: 0.5em;
     border: none;
     margin-bottom: 1em;
-    
+    border: solid 1px #6d6c6c;
+    transition: box-shadow 0.3s, border 0.3s;
+}
+
+.subContainer > #contactForm > form > textarea:hover {
+    background-color: #777777;
 }
 
 .subContainer > #contactForm > form > textarea:focus {
     outline: none;
+    color:#fff;
     background-color: #777777;
+    border: solid 1px #707070;
+    box-shadow: 0 0 2px 1px #969696;
 }
+
+
+
+
 /* -------------------Section Styles-------------------------- */
 
 
@@ -345,6 +383,10 @@ Section {
 	margin: 0 auto;
 	margin-top:1em;
 }
+
+
+
+
 
 /*--------------------- SPONOSRS SECTION --------------------*/
 section > #sponsoring {
@@ -385,6 +427,10 @@ section > #sponsoring > #partners > a > em {
     font-size: 3em;
 }
 
+
+
+
+
 /*--------------------- SPONSORS SECTION ENDS ----------------*/
 
 Section > article, aside {
@@ -407,8 +453,10 @@ Section > aside {
 	width: 48%;
 	margin:1%;
 	}
+
+
 	
-/* Footer Style */
+/*------------------------------ Footer Style---------------------- */
 
 footer {
     clear:both;
